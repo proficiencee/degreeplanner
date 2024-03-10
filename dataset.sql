@@ -9,7 +9,7 @@ CREATE TABLE Student (
 );
 -- Inserting a student's information
 INSERT INTO Student (Name, YearOfStudy, Major, SecondMajor, Minor, Faculty, CourseUnitsTaken)
-VALUES ('Silver', 2, 'Philosophy', 'Psychology', 'Gender Studies', 'FASS', 76);
+VALUES ('Silver', 2, 'Philosophy', NULL, 'Gender Studies', 'FASS', 76);
 
 -- Inserting another student's information
 INSERT INTO Student (Name, YearOfStudy, Major, SecondMajor, Minor, Faculty, CourseUnitsTaken)
